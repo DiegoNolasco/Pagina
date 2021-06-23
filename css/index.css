@@ -1,0 +1,118 @@
+*{
+    margin: 10px;
+    padding: 0px;
+}
+body{
+    background: rgb(27, 247, 236);
+    font-family:'Russo One';
+}
+#contenedor{
+    width: 960px;
+    /*height: 1200px;*/
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: rgb(0, 190, 238);
+    overflow: hidden;
+    text-align: center;
+}
+header{
+    height: 150px;
+    background: rgba(0, 240, 248, 0.966);
+}
+header h1{
+    font-size: 50px;
+    text-align: center;
+    line-height: 150px; 
+}
+nav{
+    height: 60px;
+    background: rgb(55, 162, 255);
+}
+nav h2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+}
+#contenido{
+    height: 500px;
+    width: 600px;
+    float: left;
+    background: rgb(31, 189, 241);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+#contenido h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+}
+aside{
+    width: 250px;
+    height: 400px;
+    background: rgb(12, 242, 250);
+    margin-top: 10px;
+    float: right;
+}
+aside h2{
+    font-size: 40px;
+    text-align: center;
+    line-height: 500px;
+    font-style: oblique;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+footer{
+    background: rgb(180, 189, 206);
+    clear: both;
+}
+footer h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+text-decoration: blink;
+}
+#uno {
+    background: rgb(113, 255, 108) !important;
+    width: 350px;
+    height: 800px;
+}
+ #dos {
+     background: rgb(0, 68, 255) !important;
+     width: 350px;
+     height: 800px;
+ }
+ #tres {
+     background: rgb(255, 36, 36) !important;
+     width: 350px;
+     height: 800px;
+ }
+ 
+
+
+ th{
+    font-size: 20px;
+    background-color: rgb(11, 239, 255);
+    letter-spacing: 2px;
+    border:3px solid rgb(22, 6, 2502);
+}
+td{
+    font-size: 20px;
+    background: rgba(5, 226, 255, 0.877);
+    letter-spacing: 2px;
+    border: 3px solid rgb(22, 6, 2502);
+}
+table{
+    border:3px solid  rgb(218, 225, 250);
+}
+ol li{
+    list-style-type: decimal-leading-zero
+}
+ul li{
+    list-style-type: 
+}
+li{
+    list-style-type: 
+}
